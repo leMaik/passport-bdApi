@@ -1,0 +1,30 @@
+{
+  "name": "passport-bdapi",
+  "version": "1.0.0",
+  "description": "A passport strategy for OAuth2 authentication with bdApi.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leMaik/passport-bdApi.git"
+  },
+  "keywords": [
+    "xenforo",
+    "oauth2",
+    "authentication",
+    "bdapi",
+    "passport"
+  ],
+  "author": "Maik Marschner <an@maik.tk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leMaik/passport-bdApi/issues"
+  },
+  "homepage": "https://github.com/leMaik/passport-bdApi#readme",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2",
+    "request": "^2.67.0"
+  }
+}
